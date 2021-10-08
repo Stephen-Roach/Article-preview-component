@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eff8ff;
+}
+
+.main-container {
+  height: 300px;
+  border: 1px crimson solid;
+  display: flex;
+}
+
+.main-container-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px black solid;
+}
+
+.img {
+  height: 100%;
+}
