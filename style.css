@@ -18,7 +18,32 @@ body {
   align-items: center;
   border: 2px black solid;
 }
-
 .img {
   height: 100%;
+}
+
+.main-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px crimson solid;
+}
+
+.right-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px crimson solid;
+}
+.right-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px crimson solid;
 }
