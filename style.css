@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 2%;
 }
 
 .right-top {
@@ -46,4 +47,13 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px crimson solid;
+}
+
+.right-bottom-img {
+  /* position: absolute; */
+  border-radius: 50%;
+  border: 5px white solid;
+  /* z-index: 2; */
+  /* top: 80px;
+  left: 120px; */
 }
