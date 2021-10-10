@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #eff8ff;
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
 }
 
 .main-container {
@@ -33,15 +36,26 @@ body {
   border: 1px crimson solid;
 }
 
+.right-top h2 {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
 .right-middle {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px crimson solid;
 }
+
+.right-middle p {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
+
 .right-bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border: 1px crimson solid;
 }
