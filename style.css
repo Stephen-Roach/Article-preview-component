@@ -7,12 +7,19 @@
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .main-container {
   height: 300px;
   border: 1px crimson solid;
   display: flex;
+  width: 50%;
 }
 
 .main-container-left {
@@ -20,7 +27,6 @@ body {
   justify-content: center;
   align-items: center;
   border: 2px black solid;
-  /* position: relative; */
 }
 
 .img {
@@ -80,9 +86,3 @@ body {
   border: none;
   /* background: none; */
 }
-
-/* .share-btn-icon {
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-} */
